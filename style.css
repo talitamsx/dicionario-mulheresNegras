@@ -1,0 +1,93 @@
+body{
+    font-family: Open Sans, sans-serif;
+}
+
+header{
+    height: 100px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;    
+}
+@media(max-width: 768px){
+    header{
+        margin-bottom: 20px;
+        height: 10%;
+    }
+}
+
+h1{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+@media(max-width: 768px){
+    h1{
+        font-size: 36px;
+    }
+}
+
+section{
+    display: block;
+    margin:0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.cards{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    max-height: 100%;
+    vertical-align: top;
+}
+@media(max-width: 768px){
+.cards{
+    display: block;
+    margin: 20px 10px;
+}
+}
+
+.cards img{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+@media(max-width: 768px){
+    .cards img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.cards details{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+}
+@media(max-width: 768px){
+    .cards details{
+        width: 100%;
+    }
+}
+
+.cards details summary{
+    font-size: 18px;
+    padding: 10px;
+}
+@media(max-width: 768px){
+    .cards details summary{
+        font-size: 16px;
+    }    
+}
+
+.cards details p{
+    padding: 0 10px;
+}
+@media(max-width: 768px){
+    .cards details p{
+        font-size: 14px;
+    }     
+}
+
+.cards details blockquote{
+    font-style: italic; 
+    color: #777;
+}
